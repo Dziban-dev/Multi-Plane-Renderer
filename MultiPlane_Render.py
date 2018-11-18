@@ -1,6 +1,6 @@
 bl_info = {
     "name": "Multi Plane Render | alpha",
-    "description":"Save render times by rendering a static eviroment only once, which is placed as the background for your animated objects/characters, like it was greenscreek. The 3d enviroment for your background must be setup in the 19th layer, and your animated characters must be in layer 0. I'm planning to add the functionalty to choose what layer is going to be your static enviroment and maybe use multiple layers for the animated characters. Also i would like to make de render update and render the background again if there is a camera movement.",
+    "description":"Save render times by rendering a static eviroment only once, you must setup the render layers on the Render Layers tab before using the Multi-Plane-Render addon tab.",
     "author": "Dziban",
     "version": (0, 2),
     "location": "Properties > Render > Multi Plane Render",
